@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SportBuddies</title>
+    <meta name="description" content="Proyecto SportBuddies">
+    <meta name="author" content="Silvina L.Saucedo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+
+<body class="container-fluid bg-dark">
+
+  <header id="inicio" class="my-3">
+
+        <div class="row">
+            <div class="col-12">
+                <img src="./assets/img/SportBuddies.png" alt="proximamente"  class="img-fluid">
+            </div>
+        </div>
+    </header>
+
+
+    <main class="bg-secondary container-fluid py-4">
+
+        <section class="my-4 text-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+            <h1 class="h2 font-weight-bold animate__animated animate__heartBeat">Link de descarga</h2>
+                <a class="btn btn-dark" href="https://docs.google.com/forms/d/e/1FAIpQLSdfOMxjYDLio4jkAoy_9Brc_aj06WujuihYNouVD9aZs0g43w/viewform" target="_blank" role="button">Descargar</a>
+            </div>
+        </div>
+        </div>
+            </section>
+
+
+     <section id="Contacto" class="py-4">
+            <div class="container bg-primary">
+                <h1 class="h2 font-weight-bold py-2 mb-2 animate__animated animate__flash">Contactanos!</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm">
+                            <form id="contact-form" class="contact" action="./assets/php/enviar.php" method="post" name="contact-form">
+                                <div class="form-group">
+                                    <i class="fas fa-user row container">
+                                    <input type="text" name="nombre" class="form-control name-field my-2" required="required" placeholder="Nombre">
+                                </i>
+                                </div>
+                                <div class="form-group">
+                                    <i class="fas fa-at row container">
+                                        <input type="email" name="email" class="form-control mail-field my-2" required="required" placeholder="Email">
+                                    </i>
+                                    </div>
+                                <div class="form-group">
+                                    <i class="fas fa-comments row container"></i>
+                                    <textarea name="mensaje" id="message" required="required" class="form-control my-2" rows="8" placeholder="Mensaje">
+                                    </textarea>
+                                    </div>
+                                </i>
+                                <div class="form-group">
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container-fluid bg-secondary text-light text-center">
+        <div class="container py-4">
+         <h1>@SportBuddies by Silvina Saucedo</h1>
+         <h3>silvina.saucedo@davinci.edu.ar</h3>
+         <p>2021</p>
+         <p>Todos los derechos reservados</p>
+        </div>
+      </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

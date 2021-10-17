@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-dark{
+    background-color:#1FBD09!important;
+}
+
+.bg-light{
+    background-color:#A1B09D!important;
+}
+
+.bg-danger{
+    background-color:#5EB600!important;
+}
+
+.btn-dark{
+    background-color: #11ED22!important;
+}
+
+.btn-primary{
+    background-color: #AFEB1B!important;
+    color: black;
+}
+
+.bg-secondary{
+    background-color:#bcdbbc!important;
+}
+
+.bg-primary{
+    background-color: #7AE081!important;
+}
+
+.header {
+    color: #208108!important;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #208108!important;
+}
